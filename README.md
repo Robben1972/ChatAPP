@@ -103,25 +103,3 @@ Replace `your_private_key` with your ChatEngine `PRIVATE_KEY`.
 1. Register on [ChatEngine.io](https://chatengine.io).
 2. Create a new project and note the `PROJECT_ID` and `PRIVATE_KEY`.
 3. Update the `.env` files for both the frontend and backend with these values.
-
-## Scripts
-
-- **Frontend**
-  - `npm run dev`: Start the development server.
-  - `npm run build`: Build the application for production.
-  - `npm run preview`: Preview the production build.
-
-- **Backend**
-  - `uvicorn main:app --reload`: Start the FastAPI server in development mode.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
