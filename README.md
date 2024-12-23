@@ -22,7 +22,6 @@ project/
 ├── backend/          # FastAPI project
     ├── app/           # Application code
     ├── main.py        # Entry point for FastAPI
-    └── .env           # Environment variables
 ```
 
 ## Prerequisites
