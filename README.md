@@ -81,7 +81,7 @@ PRIVATE_KEY = "your_private_key"
 
 Start the FastAPI server:
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload --port 3001
 ```
 
 ### 4. Environment Variables
@@ -96,7 +96,7 @@ Replace `your_private_key` with your ChatEngine `PRIVATE_KEY`.
 ### 5. Access the Application
 
 - Frontend: Visit [http://localhost:5173](http://localhost:5173) (React default Vite port).
-- Backend: Visit [http://localhost:8000](http://localhost:8000) (FastAPI default port).
+- Backend: Visit [http://localhost:3001](http://localhost:3001) (FastAPI default port).
 
 ## ChatEngine Setup
 
